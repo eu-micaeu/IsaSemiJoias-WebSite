@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Raleway'; /* Escolha um nome para sua fonte */
+    src: url('../fonts/Raleway-VariableFont_wght.ttf') format('woff2') /* Substitua 'sua-fonte.woff2' pelo nome do seu arquivo de fonte */
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif; 
+
+}

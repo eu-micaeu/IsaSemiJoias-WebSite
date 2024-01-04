@@ -1,0 +1,34 @@
+@import url('global.css');
+
+header{
+
+    display: flex;
+    
+    justify-content: center;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grade3xjoias,
+.grade3xtextos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.joia {
+    width: 400px;
+    height: 400px;
+    margin: 10px; /* Ajuste conforme necessário */
+    border-radius: 10px;
+}
+
+.grade3xtextos p {
+    text-align: center;
+    width: 400px; /* Igual à largura das imagens */
+    margin: 10px; /* Ajuste conforme necessário */
+}
