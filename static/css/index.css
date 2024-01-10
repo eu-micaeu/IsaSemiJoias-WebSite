@@ -21,14 +21,37 @@ main {
 }
 
 .joia {
-    width: 400px;
+    width: 300px;
     height: 400px;
     margin: 10px; /* Ajuste conforme necessário */
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .grade3xtextos p {
     text-align: center;
-    width: 400px; /* Igual à largura das imagens */
+    width: 300px; /* Igual à largura das imagens */
     margin: 10px; /* Ajuste conforme necessário */
+}
+
+footer{
+
+    display: flex;
+
+    margin-top: 20px;
+
+    height: 200px;
+
+    width: 100%;
+
+    background-color: #947A55;
+
+    border-radius: 10px;
+
+}
+
+footer .contatos{ 
+
+    margin: 10px;
+
 }

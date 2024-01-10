@@ -1,0 +1,60 @@
+@import url('global.css');
+
+header{
+
+    display: flex;
+    
+    justify-content: center;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+
+}
+
+.imagem img{
+    border-radius: 10px;
+}
+
+.detalhes{
+    padding: 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#comprar{
+
+    background-color: transparent;
+
+    font-size: 18px;
+
+    font-family: 'Raleway', sans-serif; 
+
+    padding: 10px;
+
+    border: 4px solid black;
+
+    border-radius: 10px;
+
+}
+
+#comprar:hover{
+
+    background-color: black;
+
+    color: white;
+
+    cursor: pointer;
+    
+}
