@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../static/css/pagamento.css">
+
+    <title>Isa Semi-Jóias</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="../static/img/logo.jpg" alt="Logo Isa Semi-Jóias" width="400" height="300" id="logoHeader" onclick="window.location.href = '/index'">
+
+    </header>
+
+    <main>
+
+        <div id="resumCompra">
+
+            <p>RESUMO DA COMPRA</p>
+
+        </div>
+
+        <form>
+
+            <label for="nmrCartao"></label>
+            <input type="text" name="nmrCartao" id="nmrCartao" placeholder="Número do Cartão" required class="dadosCartao">
+    
+            <label for="dataVenc"></label>
+            <input type="text" name="dataVenc" id="dataVenc" placeholder="Data de Vencimento" required class="dadosCartao" type="data">
+    
+            <label for="nomeTitular"></label>  
+            <input type="text" name="nomeTitular" id="nomeTitular" placeholder="Nome do Titular" required class="dadosCartao"> 
+    
+            <label for="CVV"></label>
+            <input type="text" name="CVV" id="CVV" placeholder="CVV" required class="dadosCartao">
+    
+        </form>
+
+        <button type="button" id="finalizar">Finalizar</button>
+
+    </main>
+
+
+
+    <footer>
+            
+        <p>Isa Semi-Jóias - Todos os direitos reservados</p>
+
+    </footer>
+    
+
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+@import url('global.css');
+
+main {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.dadosCartao {
+
+    padding: 10px;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: bold;
+
+    margin: 5px;
+
+    border-radius: 10px;
+
+    border: 2px solid black;
+
+}
+
+#resumCompra {
+
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: bold;
+
+    width: 500px;
+
+    height: 300px;
+
+    border: 4px solid black;
+
+    margin: 20px;
+
+    border-radius: 20px;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+#finalizar {
+
+
+    background-color: transparent;
+
+    font-size: 18px;
+
+    font-family: 'Raleway', sans-serif;
+
+    padding: 10px;
+
+    border: 4px solid black;
+
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+#finalizar:hover{
+
+    background-color: black;
+
+    color: white;
+
+    cursor: pointer;
+    
+}

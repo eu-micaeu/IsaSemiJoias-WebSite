@@ -28,6 +28,12 @@ func main() {
 
 	})
 
+	r.GET("/pagamento", func(c *gin.Context) {
+
+		c.HTML(http.StatusOK, "pagamento.html", nil)
+
+	})
+
 	r.Static("./static", "./static")
 
 	r.Run()
